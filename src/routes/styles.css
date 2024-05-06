@@ -1,0 +1,48 @@
+/* THIS FILE IS JUST FOR EXAMPLES, DELETE IT IF YOU DON'T NEED IT */
+
+/* SHELL ---------------------------------------- */
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+body {
+  background: var(--qwik-dark-background);
+  color: var(--qwik-dark-text);
+  overflow-x: hidden;
+}
+
+.col {
+  font-size: small;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  background-color: lightgray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+img:hover {
+  box-shadow: inset 0 0 10px black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  line-height: 20px;
+}
+
+span {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
